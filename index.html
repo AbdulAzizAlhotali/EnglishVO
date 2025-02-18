@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Vocabulary Game</title>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>English Vocabulary Game</h1>
+        </div>
+
+        <div class="settings">
+            <div class="setting-group">
+                <label for="unitSelect">Select Unit:</label>
+                <select id="unitSelect"></select>
+            </div>
+            <div class="setting-group">
+                <label for="categorySelect">Select Category:</label>
+                <select id="categorySelect"></select>
+            </div>
+        </div>
+
+        <div class="tabs">
+            <div class="tab active" data-tab="matching">Term Matching</div>
+            <div class="tab" data-tab="filling">Fill In The Blank</div>
+        </div>
+
+        <div id="gameContent">
+            <div class="stats">
+                <div>Score: <span id="score">0</span></div>
+                <div>Time Left: <span id="timer">60</span> seconds</div>
+            </div>
+
+            <div id="instruction" class="instruction-highlight">
+                Select a term and match it with its correct definition
+            </div>
+
+            <!-- Matching Game Tab -->
+            <div id="matchingGame" class="tab-content active">
+                <div class="game-container" id="gameContainer">
+                    <div class="column">
+                        <h2>Terms</h2>
+                        <div id="terms"></div>
+                    </div>
+                    <div class="column">
+                        <h2>Definitions</h2>
+                        <div id="definitions"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fill In The Blank Tab -->
+            <div id="fillingGame" class="tab-content">
+                <div class="fill-container">
+                    <div class="fill-sentence" id="fillSentence">
+                        <!-- Will be populated by JavaScript -->
+                    </div>
+                    <div class="fill-options" id="fillOptions">
+                        <!-- Will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="feedbackTooltip" class="feedback-tooltip"></div>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
