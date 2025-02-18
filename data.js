@@ -19,16 +19,14 @@ const data = {
                     { term: "respectful", definition: "polite, showing consideration" },
                 ],
                 "Vocabulary Building": [
-                    { term: "satisfaction", definition: "feeling of contentment" },
-                    { term: "status", definition: "state or condition" },
-                    { term: "entail", definition: "to involve or require" },
-                    { term: "appreciate", definition: "to be grateful for" },
-                    { term: "income", definition: "money received or earned" },
-                    { term: "cooperate", definition: "to work together well" },
-                    { term: "respectful", definition: "polite, showing consideration" },
                     { term: "analyze", definition: "to study closely" },
                     { term: "determine", definition: "to decide or discover" },
                     { term: "identifying", definition: "determining what something is" },
+                    { term: "allergens", definition: "substances that cause sensitivity or reactions in some people" },
+                    { term: "identical", definition: "exactly the same" },
+                    { term: "flair", definition: "a natural talent or ability" },
+                    { term: "captive", definition: "confined, kept under restraint or control" },
+                    { term: "infection", definition: "disease or sickness received from someone or something" }
                 ],
                 "Real Talk": [
                     { term: "in a bind", definition: "in a difficult situation" },
