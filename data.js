@@ -84,7 +84,7 @@ const data = {
                 ],
                 "Real Talk": [
                     { term: "Cool!", definition: "Great!" },
-                    { term: "Hold on!", definition: "Hold on!" },
+                    { term: "Hold on!", definition: "Stop for a moment!" },
                     { term: "out of touch", definition: "don’t have a realistic idea" },
                     { term: "reality check", definition: "an assessment of how realistic something is" },
                     { term: "an arm and a leg", definition: "a large amount of money" },
